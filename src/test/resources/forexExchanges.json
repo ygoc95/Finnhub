@@ -1,0 +1,7 @@
+{
+  "$schema": "https://finnhub.io/api/v1/forex/exchange",
+  "$id": "https://finnhub.io/api/v1/forex/exchange",
+  "title": "Forex Exchanges",
+  "description": "List supported forex exchanges",
+  "type": "array"
+}

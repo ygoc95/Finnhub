@@ -1,0 +1,26 @@
+{
+  "$schema": "https://finnhub.io/api/v1/forex/symbol",
+  "$id": "https://finnhub.io/api/v1/forex/symbol",
+  "title": "Forex Symbols",
+  "description": "Exchange you want to get the list of symbols from.",
+  "type": "array",
+  "items": {
+      "type": "object",
+      "properties": {
+        "description":{
+          "type": "string"
+        },
+        "displaySymbol":{
+          "type": "string"
+        },
+        "symbol":{
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "displaySymbol",
+        "symbol"
+      ]
+    }
+}
