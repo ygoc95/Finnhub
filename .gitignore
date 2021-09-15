@@ -12,3 +12,6 @@ reports
 
 # Project exclude paths
 /target/
+
+# Project properties are excluded as it include API Keys
+/src/test/resources/properties/test.properties
