@@ -1,0 +1,16 @@
+{
+  "$schema": "https://finnhub.io/api/v1/forex/rates",
+  "$id": "https://finnhub.io/api/v1/forex/rates",
+  "title": "Forex Rates",
+  "description": "Get rates for all forex pairs. Ideal for currency conversion.",
+  "type": "object",
+  "properties": {
+    "base":{
+      "type":"string"
+    },
+    "quote":{
+      "type":"object"
+    }
+  },
+  "required":["base","quote"]
+}

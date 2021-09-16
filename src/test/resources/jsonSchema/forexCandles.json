@@ -1,0 +1,31 @@
+{
+    "$schema": "https://finnhub.io/api/v1/forex/candle",
+    "$id": "https://finnhub.io/api/v1/forex/candle",
+    "title": "Forex Candles",
+    "description": "Get candlestick data for forex symbols.",
+    "type": "object",
+    "properties": {
+        "c":{
+            "type":"array"
+        },
+        "h":{
+            "type":"array"
+        },
+        "l":{
+            "type":"array"
+        },
+        "o":{
+            "type":"array"
+        },
+        "s":{
+            "type":"string"
+        },
+        "t":{
+            "type":"array"
+        },
+        "v":{
+            "type":"array"
+        }
+    },
+    "required":["c","h","l","o","s","t","v"]
+}
